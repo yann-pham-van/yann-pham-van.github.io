@@ -7310,7 +7310,13 @@ h3 {
     .portfolio .portfolio-item .portfolio-item-caption:hover {
       opacity: 1; }
     .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
-      font-size: 1.5rem; }
+      font-size: 1.5rem;
+      text-align: left;
+      white-space: normal !important;
+      word-wrap: break-word; }
+    .portfolio-item-caption-content p {
+      margin-bottom: 10px; }
+
 
 .portfolio-modal .portfolio-modal-title {
   font-size: 2.25rem;
